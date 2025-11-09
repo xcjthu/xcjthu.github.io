@@ -35,7 +35,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 
 h3 {
@@ -176,4 +176,29 @@ a {
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+.paper-title {
+  font-size: 1.0em;
+  display: block;
+  padding-left: 2em;
+  text-indent: -2em;
+}
+
+.paper-authors {
+  font-size: 1.0em;
+  display: block;
+  padding-left: 1.6em;
+  text-indent: 0;
+}
+
+/* Make publication year headings smaller */
+#publications h4 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Add spacing between paper entries */
+#publications .resume-content > div {
+  margin-bottom: 0.5em;
 }
