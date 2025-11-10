@@ -183,6 +183,7 @@ a:hover, a:focus, a:active {
   display: block;
   padding-left: 2em;
   text-indent: -2em;
+  text-transform: capitalize;
 }
 
 .paper-authors {
